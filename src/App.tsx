@@ -16,7 +16,7 @@ import {
   ChevronRight,
   TreeDeciduous,
 } from 'lucide-react';
-
+import mapImage from '../public/karakalpak.jpg'
 /* ─── Mock Data ─── */
 interface District {
   id: number;
@@ -321,7 +321,7 @@ export default function App() {
           >
             {/* Map image */}
             <img
-              src="./public/karakalpak.jpg"
+              src={mapImage}
               alt="Карта Каракалпакстана"
               className="w-full h-auto block"
               draggable={false}
